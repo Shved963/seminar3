@@ -19,10 +19,34 @@
 
     git add <имя файла>
 
+## Проверка файла
+
+Чтобы проверить изменен ли файл нужно ввести команду:
+
+    git status
+
 ## Фиксация изменений
 
-Чтобы зафиксировать изменения добавленные в индекс нужно ввести команду:
+Чтобы зафиксировать изменения добавленные в индекс и открыть редактор нужно ввести команду:
 
     git commit
 
-    
+ 
+ Описать команды:
+
+    git status
+
+    git commit -m
+    git commit -a
+    git commit -am (-a -m)
+
+    git log
+    git log --oneline
+    git log --all
+    git log --oneline --all
+
+    git diff
+    git diff 'hash1' 'hash2'
+
+    git checkout 'hash'
+    git checkout master
