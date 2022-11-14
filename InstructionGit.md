@@ -53,11 +53,12 @@
 
     git log --oneline
 
+Чтобы посмотреть историю **всех** коммито,находясь не в **master** ветке, нужно ввести команду:
+
+    git log --all
+
  Описать команды:
 
-
-    git log
-    git log --oneline
     git log --all
     git log --oneline --all
 
