@@ -43,11 +43,14 @@
 
     git commit -am "описание коммита"
 
+## Информация о коммитах
+
+Чтобы посмотреть историю коммитов нужно ввести команду:
+
+    git log
 
  Описать команды:
 
-    git commit -a
-    git commit -am (-a -m)
 
     git log
     git log --oneline
